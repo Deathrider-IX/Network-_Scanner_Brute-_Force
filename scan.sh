@@ -16,7 +16,9 @@ cat art.sh
 
 while true; do
 	echo
+	echo "Type 'h' for commands"
 	echo -ne "${CYAN}${BOLD}ENTER DOMAIN/IP (PRESS Q TO EXIT) : ${RESET}"
+	
 	read command
 
 	[[ "$command" == "q" || "$command" == "quit" ]] && break
